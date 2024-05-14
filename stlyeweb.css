@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-brand:hover{
+    color:#f81a5c ;
+} 
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+.nav-item:hover{
+    color: #f81a5c;
+}
+.nav-link:hover{
+    color:#f81a5c;
+    text-decoration: underline;
+}   
+/* .col-lg-7btn1:hover{
+    transition: 5s;
+} */
+.search{
+    height:40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid #f81a5c;
+    font-family: "Rubik", sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248,26,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url(healthy-lunch-to-go-packed-box-fruits-vegetables-eating-concept-view-above-copy-space-152398240.webp)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248,26,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+
+.flex{
+    display: flex;
+}
+.btn1{
+    background-color:rgb(223,15,77);
+    /* transition: 0.5s; */
+    /* position: absolute; */
+}
+.btn1:hover{
+    /* position: relative; */
+    /* transition: 5s; */
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.80);
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.80);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.80);
+    transition: 0.05s;
+}
+.h1{
+    font-size: 700;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.80);
+-webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.80);
+-moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.80);
+transition: 0.05s;
+}
+.Apple{
+    background: url(apple2.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.order{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.order h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 55px;
+}
+.order h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+
+.order h1 span::after{
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.order .order_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.order .order_main .order_image img{
+    width: 600px;
+}
+
+.order .order_main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10px;
+}
+
+.order .order_main form .input p{
+    line-height: 25px;
+}
+
+.order .order_main form .input{
+    margin: 5px;
+}
+
+.order .order_main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+
+.order .order_main form .input input:focus{
+    border: 2px solid #fac031;
+}
+
+.order .order_main form .order_btn{
+    padding: 10px 0;
+    background: #fac031;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+
+
+/*Team*/
+
+.team{
+    width: 100%;
+    height: 90vh;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.team h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.team h1 span{
+    color: #fac031;
+    margin-left: 15px;
+    font-family: mv boli;
+}
+
+.team h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.team .team_box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 13%;
+}
+
+.team .team_box .profile{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover{
+    border-radius: 20px;
+    height: 320px;
+}
+
+.team .team_box .profile img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover img{
+    border-radius: 20px;
+    margin-top: -230px;
+}
+
+.team .team_box .profile .info{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover .info{
+    top: 60%;
+}
+
+.team .team_box .profile .info .name{
+    color: #fac031;
+    margin-bottom: 15px;
+}
+
+.team .team_box .profile .info .bio{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.team .team_box .profile .info .team_icon i{
+    margin: 10px 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.team .team_box .profile .info .team_icon i:hover{
+    color: #fac031;
+}
+
+
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+}
+
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag{
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p{
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .footer_tag i:hover{
+    color: #fac031;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer .end span{
+    color: #fac031;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fac031;
+    border-radius: 15px;
+}
+/* @import url();
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:active,
+:hover
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+a:hover{
+    color: var(--primary-color);
+}
+ul,
+ol{
+    margin: 0%;
+    padding: 0%;
+}
+:root {
+    --primary-color:#A82C48;
+    --secondry-color:#43121d;
+    --third-color:#f98169;
+    --white-color:#fff;
+    --text-color:#555;
+    --black-color:#000;
+    --primary-font:'Roboto',sans-serif;
+    --secondry-font:'Quicksand',sans-serif;
+}
+/*=======header======== */
+/* .navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 100%;
+    -webkit-transition: all 0.3s ease-out ;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem ;
+    transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;    
+}
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+.navigation-wrap .scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:var(--white-color);
+    box-shadow: 0 0.125rem 175rem 0 black;
+    transition: all .15s ease-in-out 0s;
+}
+.top-bannar{
+    width: 100%;
+    background:url("img/bg/bg-1.jpg") no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+} */
